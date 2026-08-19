@@ -1,0 +1,11 @@
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.5
+lightgbm>=4.5
+torch>=2.4
+shap>=0.46
+matplotlib>=3.9
+streamlit>=1.40
+pyyaml>=6.0
+jupyter>=1.1
+pytest>=8.0

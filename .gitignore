@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.vscode/
+.ipynb_checkpoints/
+results/predictions/
+results/logs/
+*.joblib
+*.pkl
+*.pt
+*.pth
+.DS_Store
+Thumbs.db

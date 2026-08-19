@@ -1,0 +1,31 @@
+dataset:
+  path: data/nigeria_maize_weather_yield_2020_2024_v1.0.csv
+  sha256: 09ab62faed51d7f391595068587d33595f49058ae1687621925cf12408c2f97c
+
+target: Yield_MT_Ha
+
+features:
+  - Seasonal_Rainfall_mm
+  - Seasonal_GDD_C
+  - Max_CDD_days
+  - Mean_Tmax_C
+  - Mean_Tmin_C
+  - Mean_RH_pct
+  - Mean_Solar_Radiation_MJ_m2_day
+  - Rainfall_Anomaly_Z_2000_2019
+
+evaluation:
+  temporal:
+    train_end_year: 2023
+    test_year: 2024
+  spatial:
+    n_splits: 5
+  random:
+    test_size: 0.20
+    random_state: 42
+
+robustness:
+  temperature_shifts_c: [1.0, 2.0, 3.5]
+  rainfall_shifts_pct: [-30, -15, 15, 30]
+
+seed: 42
