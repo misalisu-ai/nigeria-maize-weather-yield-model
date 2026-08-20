@@ -1,0 +1,103 @@
+{
+  "experiment": "03_state_held_out",
+  "dataset": "nigeria_maize_weather_yield_2020_2024_v1.0.csv",
+  "dataset_sha256": "09ab62faed51d7f391595068587d33595f49058ae1687621925cf12408c2f97c",
+  "features": [
+    "Seasonal_Rainfall_mm",
+    "Seasonal_GDD_C",
+    "Max_CDD_days",
+    "Mean_Tmax_C",
+    "Mean_Tmin_C",
+    "Mean_RH_pct",
+    "Mean_Solar_Radiation_MJ_m2_day",
+    "Rainfall_Anomaly_Z_2000_2019"
+  ],
+  "target": "Yield_MT_Ha",
+  "seed": 42,
+  "split": {
+    "method": "GroupKFold",
+    "group": "State",
+    "n_splits": 5,
+    "shuffle": false
+  },
+  "model_parameters": {
+    "Ridge": {
+      "memory": null,
+      "steps": [
+        [
+          "scaler",
+          "StandardScaler()"
+        ],
+        [
+          "model",
+          "Ridge()"
+        ]
+      ],
+      "transform_input": null,
+      "verbose": false,
+      "scaler": "StandardScaler()",
+      "model": "Ridge()",
+      "scaler__copy": true,
+      "scaler__with_mean": true,
+      "scaler__with_std": true,
+      "model__alpha": 1.0,
+      "model__copy_X": true,
+      "model__fit_intercept": true,
+      "model__max_iter": null,
+      "model__positive": false,
+      "model__random_state": null,
+      "model__solver": "auto",
+      "model__tol": 0.0001
+    },
+    "RandomForest": {
+      "bootstrap": true,
+      "ccp_alpha": 0.0,
+      "criterion": "squared_error",
+      "max_depth": null,
+      "max_features": 1.0,
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 3,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 300,
+      "n_jobs": -1,
+      "oob_score": false,
+      "random_state": 42,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "LightGBM": {
+      "boosting_type": "gbdt",
+      "class_weight": null,
+      "colsample_bytree": 0.9,
+      "importance_type": "split",
+      "learning_rate": 0.03,
+      "max_depth": -1,
+      "min_child_samples": 10,
+      "min_child_weight": 0.001,
+      "min_split_gain": 0.0,
+      "n_estimators": 200,
+      "n_jobs": null,
+      "num_leaves": 15,
+      "objective": "regression",
+      "random_state": 42,
+      "reg_alpha": 0.1,
+      "reg_lambda": 0.5,
+      "subsample": 0.9,
+      "subsample_for_bin": 200000,
+      "subsample_freq": 0,
+      "verbosity": -1
+    }
+  },
+  "environment": {
+    "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26100-SP0",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scikit_learn": "1.9.0",
+    "torch": "2.13.0+cpu"
+  }
+}
