@@ -1,0 +1,17 @@
+Model,Feature,Mean_Rank,Rank_SD,Best_Rank,Worst_Rank
+LightGBM,Max_CDD_days,7.2,1.3038404810405297,5,8
+LightGBM,Mean_RH_pct,6.4,1.816590212458495,4,8
+LightGBM,Mean_Solar_Radiation_MJ_m2_day,2.8,1.6431676725154984,1,5
+LightGBM,Mean_Tmax_C,3.0,1.0,2,4
+LightGBM,Mean_Tmin_C,3.8,1.3038404810405297,3,6
+LightGBM,Rainfall_Anomaly_Z_2000_2019,5.6,1.51657508881031,3,7
+LightGBM,Seasonal_GDD_C,1.2,0.4472135954999579,1,2
+LightGBM,Seasonal_Rainfall_mm,6.0,1.0,5,7
+RandomForest,Max_CDD_days,8.0,0.0,8,8
+RandomForest,Mean_RH_pct,6.0,0.7071067811865476,5,7
+RandomForest,Mean_Solar_Radiation_MJ_m2_day,2.0,0.0,2,2
+RandomForest,Mean_Tmax_C,3.0,0.0,3,3
+RandomForest,Mean_Tmin_C,4.8,1.3038404810405297,4,7
+RandomForest,Rainfall_Anomaly_Z_2000_2019,5.6,1.51657508881031,4,7
+RandomForest,Seasonal_GDD_C,1.0,0.0,1,1
+RandomForest,Seasonal_Rainfall_mm,5.6,0.894427190999916,5,7

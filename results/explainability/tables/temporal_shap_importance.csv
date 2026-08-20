@@ -1,0 +1,17 @@
+Model,Feature,Mean_Absolute_SHAP,Rank
+RandomForest,Seasonal_GDD_C,0.22067530790531995,1
+RandomForest,Mean_Solar_Radiation_MJ_m2_day,0.11643558193704567,2
+RandomForest,Mean_Tmax_C,0.07462913890605638,3
+RandomForest,Mean_Tmin_C,0.042662827068915325,4
+RandomForest,Max_CDD_days,0.01865927161868482,5
+RandomForest,Mean_RH_pct,0.016473205975803606,6
+RandomForest,Rainfall_Anomaly_Z_2000_2019,0.015257605474239981,7
+RandomForest,Seasonal_Rainfall_mm,0.010056921113557698,8
+LightGBM,Seasonal_GDD_C,0.19012686016243735,1
+LightGBM,Mean_Solar_Radiation_MJ_m2_day,0.09375991677233317,2
+LightGBM,Mean_Tmax_C,0.09022238834626263,3
+LightGBM,Rainfall_Anomaly_Z_2000_2019,0.04678693994218864,4
+LightGBM,Mean_Tmin_C,0.04397359537747451,5
+LightGBM,Max_CDD_days,0.030825937841357176,6
+LightGBM,Mean_RH_pct,0.02725456747526179,7
+LightGBM,Seasonal_Rainfall_mm,0.02385146565268233,8
