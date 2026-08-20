@@ -1,0 +1,13 @@
+Scenario,Scenario_Type,Temperature_Shift_C,Rainfall_Shift_pct
+T+0_R0,Baseline,0.0,0.0
+T+0_R-10,Drought,0.0,-10.0
+T+0_R-20,Drought,0.0,-20.0
+T+0_R-30,Drought,0.0,-30.0
+T+1_R0,Heat,1.0,0.0
+T+1_R-10,Compound,1.0,-10.0
+T+1_R-20,Compound,1.0,-20.0
+T+1_R-30,Compound,1.0,-30.0
+T+2_R0,Heat,2.0,0.0
+T+2_R-10,Compound,2.0,-10.0
+T+2_R-20,Compound,2.0,-20.0
+T+2_R-30,Compound,2.0,-30.0

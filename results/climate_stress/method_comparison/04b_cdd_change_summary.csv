@@ -1,0 +1,13 @@
+Scenario,Scenario_Type,Temperature_Shift_C,Rainfall_Shift_pct,States_with_CDD_Increase,States_with_CDD_Decrease,States_with_CDD_Unchanged,Mean_CDD_Change_days,Median_CDD_Change_days,Max_CDD_Increase_days
+T+0_R-10,Drought,0.0,-10.0,6,0,31,0.6486486486486487,0.0,9
+T+0_R-20,Drought,0.0,-20.0,7,0,30,0.972972972972973,0.0,12
+T+0_R-30,Drought,0.0,-30.0,11,0,26,1.4054054054054055,0.0,12
+T+0_R0,Baseline,0.0,0.0,0,0,37,0.0,0.0,0
+T+1_R-10,Compound,1.0,-10.0,6,0,31,0.6486486486486487,0.0,9
+T+1_R-20,Compound,1.0,-20.0,7,0,30,0.972972972972973,0.0,12
+T+1_R-30,Compound,1.0,-30.0,11,0,26,1.4054054054054055,0.0,12
+T+1_R0,Heat,1.0,0.0,0,0,37,0.0,0.0,0
+T+2_R-10,Compound,2.0,-10.0,6,0,31,0.6486486486486487,0.0,9
+T+2_R-20,Compound,2.0,-20.0,7,0,30,0.972972972972973,0.0,12
+T+2_R-30,Compound,2.0,-30.0,11,0,26,1.4054054054054055,0.0,12
+T+2_R0,Heat,2.0,0.0,0,0,37,0.0,0.0,0

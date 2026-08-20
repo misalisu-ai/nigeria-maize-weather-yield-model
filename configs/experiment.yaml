@@ -29,3 +29,9 @@ robustness:
   rainfall_shifts_pct: [-30, -15, 15, 30]
 
 seed: 42
+
+weather_recomputed:
+  raw_weather_dir: ../nigeria-maize-weather-yield-data/data/raw/nasa_power_daily
+  rainfall_climatology: ../nigeria-maize-weather-yield-data/data/metadata/rainfall_climatology_2000_2019_v1.0.csv
+  temperature_base_c: 10.0
+  dry_day_threshold_mm: 1.0
