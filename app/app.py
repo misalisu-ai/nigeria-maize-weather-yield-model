@@ -6,6 +6,15 @@ from components.loaders import (
     load_main_dataset,
 )
 
+from components.style import hero
+hero(
+    "Nigeria Maize Yield Intelligence",
+    "Weather-based machine learning for state-level yield analysis, climate-stress sensitivity and explainable decision support.",
+)
+
+from components.style import apply_dashboard_style, sidebar_branding
+apply_dashboard_style()
+sidebar_branding()
 
 st.set_page_config(
     page_title="Nigeria Maize Yield Intelligence",

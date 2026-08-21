@@ -1,4 +1,11 @@
 from __future__ import annotations
+from components.style import (
+    apply_dashboard_style,
+    sidebar_branding,
+)
+
+apply_dashboard_style()
+sidebar_branding()
 
 import streamlit as st
 
