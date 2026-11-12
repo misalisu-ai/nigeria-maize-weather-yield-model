@@ -3,7 +3,7 @@
 > **Weather-based machine learning for state-level maize yield analysis, robustness testing, uncertainty estimation, and explainable decision support across Nigeria.**
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
-[![Streamlit App](https://shields.io)](https://streamlit.app)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B)](https://streamlit.app)
 [![ML](https://img.shields.io/badge/ML-Ridge%20%7C%20Random%20Forest%20%7C%20LightGBM-green.svg)](#)
 [![Status](https://img.shields.io/badge/Status-3MTT%20Capstone%20Ready-success.svg)](#)
 
